@@ -7,10 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
+    "@angular/cdk": "^9.1.2",
+    "@angular/material": "^9.1.2",
     "@angular/animations": "~11.2.12",
     "@angular/common": "~11.2.12",
     "@angular/compiler": "~11.2.12",

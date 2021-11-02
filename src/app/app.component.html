@@ -516,5 +516,18 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <router-outlet></router-outlet>
+
+<button mat-raised-button [appPtMenuTrigger]="menuTmpl" triggerBy="hover">Open</button>
+
+<!-- <ng-template #menuTmpl>
+  <div>
+    something
+  </div>
+</ng-template> -->
+
+<app-pt-menu #menuTmpl>
+  <div>
+    something bla bla
+  </div>
+</app-pt-menu>
